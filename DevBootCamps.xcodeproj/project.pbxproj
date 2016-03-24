@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F4A36CCC1CA30262008234F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A36CCB1CA30262008234F8 /* AppDelegate.swift */; };
 		F4A36CCE1CA30262008234F8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A36CCD1CA30262008234F8 /* FirstViewController.swift */; };
-		F4A36CD01CA30262008234F8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A36CCF1CA30262008234F8 /* SecondViewController.swift */; };
+		F4A36CD01CA30262008234F8 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A36CCF1CA30262008234F8 /* LocationVC.swift */; };
 		F4A36CD31CA30262008234F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A36CD11CA30262008234F8 /* Main.storyboard */; };
 		F4A36CD51CA30262008234F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A36CD41CA30262008234F8 /* Images.xcassets */; };
 		F4A36CD81CA30262008234F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4A36CD61CA30262008234F8 /* LaunchScreen.xib */; };
@@ -31,7 +31,7 @@
 		F4A36CCA1CA30262008234F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A36CCB1CA30262008234F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A36CCD1CA30262008234F8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F4A36CCF1CA30262008234F8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F4A36CCF1CA30262008234F8 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		F4A36CD21CA30262008234F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4A36CD41CA30262008234F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F4A36CD71CA30262008234F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			children = (
 				F4A36CCB1CA30262008234F8 /* AppDelegate.swift */,
 				F4A36CCD1CA30262008234F8 /* FirstViewController.swift */,
-				F4A36CCF1CA30262008234F8 /* SecondViewController.swift */,
+				F4A36CCF1CA30262008234F8 /* LocationVC.swift */,
 				F4A36CD11CA30262008234F8 /* Main.storyboard */,
 				F4A36CD41CA30262008234F8 /* Images.xcassets */,
 				F4A36CD61CA30262008234F8 /* LaunchScreen.xib */,
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A36CD01CA30262008234F8 /* SecondViewController.swift in Sources */,
+				F4A36CD01CA30262008234F8 /* LocationVC.swift in Sources */,
 				F4A36CCC1CA30262008234F8 /* AppDelegate.swift in Sources */,
 				F4A36CCE1CA30262008234F8 /* FirstViewController.swift in Sources */,
 			);
